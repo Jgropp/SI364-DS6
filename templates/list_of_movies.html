@@ -1,0 +1,11 @@
+<html>
+<title>Movies</title>
+<body>
+  <ul>
+  {% for r in results %}
+      <li><h2>Movie Title: {{ r.movieTitle }}</h2>
+      <h3>Movie Genre: {{ r.movieGenre }}</h3></li>
+  {% endfor %}
+  </ul>
+</body>
+</html>
